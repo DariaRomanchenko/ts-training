@@ -1,4 +1,5 @@
-const RandomHotel = require('./randomHotel');
+// import * as _ from 'lodash'
+import {RandomHotel} from "./RandomHotel";
 
 const randomHotel = new RandomHotel('nl', 'production');
 async function init() {
